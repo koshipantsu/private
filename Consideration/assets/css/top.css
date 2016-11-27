@@ -15,7 +15,12 @@ img{
 li{
   list-style: none;
   display: inline-block;
+  padding-right: 10%;
 }
+/*
+li:last-child{
+  padding: 0;
+}*/
 
 a{
   text-decoration: none;
@@ -78,6 +83,7 @@ a{
   padding: 0;
   top: 200px;
   left: 5%;
+  width: 600px;
 }
 
 .footer__line{
@@ -86,18 +92,26 @@ a{
   height: 1px;
   background: #5e5e5e;
   top: 80%;
-  left: 5%;
-  right: 5%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .footer__contents{
   position: absolute;
+  padding: 0;
+  width: 500px;
   top: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .copyright{
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 95%;
+  width: 200px;
+  top: 97%;
+  left: 0;
+  right: 0;
+  margin:0 auto;
 }
